@@ -5,7 +5,7 @@ option java_package = "com.alibaba.otter.canal.protocol";
 option java_outer_classname = "CanalEntry";
 option optimize_for = SPEED;
 
-option go_package = "./;protocol";
+option go_package = "./;com_alibaba_otter_canal_protocol";
 
 /****************************************************************
  * message model
