@@ -38,7 +38,7 @@ var EntryType_name = map[int32]string{
 	1: "TRANSACTIONBEGIN",
 	2: "ROWDATA",
 	3: "TRANSACTIONEND",
-	4: "HEARTBEAT",
+	4: "HEARTBEATT",
 	5: "GTIDLOG",
 }
 var EntryType_value = map[string]int32{
@@ -46,7 +46,7 @@ var EntryType_value = map[string]int32{
 	"TRANSACTIONBEGIN":          1,
 	"ROWDATA":                   2,
 	"TRANSACTIONEND":            3,
-	"HEARTBEAT":                 4,
+	"HEARTBEATT":                 4,
 	"GTIDLOG":                   5,
 }
 
