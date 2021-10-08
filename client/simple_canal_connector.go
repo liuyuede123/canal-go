@@ -139,9 +139,9 @@ func (c SimpleCanalConnector) doConnect() error {
 		return err
 	}
 	if p != nil {
-		if p.GetVersion() != 1 {
-			return fmt.Errorf(versionErr)
-		}
+		//if p.GetVersion() != 1 {
+		//	return fmt.Errorf(versionErr)
+		//}
 
 		if p.GetType() != pbp.PacketType_HANDSHAKE {
 			return fmt.Errorf(handshakeErr)
